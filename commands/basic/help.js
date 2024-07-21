@@ -12,16 +12,14 @@ module.exports = {
         .setDescription('Displays a list of commands'),
 
     async execute(interaction) {
-        const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-        const githubLink = "https://github.com/GlaceYT";
-        const replitLink = "https://replit.com/@GlaceYT";
+        const supportServerLink = "https://discord.com/invite/PeEHBqJNbG";
 
         const pages = [
             {
                 title: "Bot Information",
                 description: `This bot offers a comprehensive suite of commands designed to enhance your Discord server experience. It seamlessly integrates both prefix and slash commands\n\n` +
-                 `**Developed By:** GlaceYT\n` +
-                 `**Version:** 1.0.0\n` +
+                 `**Developed By:** Laplace\n` +
+                 `**Version:** Beta 0.1\n` +
                  `**Node Version:** v20.12.2\n` +
                  `**Discord.js Version:** 14.15.3\n\n` +
                  `**Features:**\n` +
@@ -29,15 +27,13 @@ module.exports = {
                  "- Fun commands to entertain your members\n" +
                  "- Multiple music systems for listening to music\n" +
                  "- Utility commands for various practical tasks\n" +
-                 "- Anime / Hentai / Meme commands \n\n" +
+                 "- Anime / Meme commands \n\n" +
                  `**Usage:**\n` +
                  "Use slash commands or prefix commands to invoke bot commands.\n\n" ,
                 commands: [
-                    "\nJoin our Discord server - [Discord](https://discord.gg/xQF9f9yUEM)\n\n" +
+                    "\nJoin our Discord server - [Discord](https://discord.com/invite/PeEHBqJNbG)\n\n" +
                     "**Follow us on:**\n" +
-                    "- My GitHub Page: [GitHub](https://github.com/GlaceYT)\n" +
-                    "- Other bot source: [Replit](https://replit.com/@GlaceYT)\n" +
-                    "- Check out My channel: [YouTube](https://www.youtube.com/@GlaceYT)"
+                    
                 ],
                 
                 image: "https://cdn.discordapp.com/attachments/1246408947708072027/1264191161212342282/GlaceYT_1.png?ex=669cf944&is=669ba7c4&hm=3170787ef8dfcde922996ce7bdbaf909c4a18b3e9d757cee8b020ddc70e12c84&",
@@ -48,7 +44,7 @@ module.exports = {
                 author: {
                     name: "ALL IN ONE BOT",
                     iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1253655046835408917/2366-discord-developers.gif?ex=6676a4be&is=6675533e&hm=0b39917ea5a274d222a001017886e3b43725191f671b34efe5349f82be57968c&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
             {
@@ -65,7 +61,7 @@ module.exports = {
                 author: {
                     name: "Lavalink Music Player",
                     iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1255146656882622554/8693-youtube-music.png?ex=667c11ea&is=667ac06a&hm=b81b2b2d294019d1c647069c9fa4f4ed09d4d3403aa8fdae2555ff6c1c88e0a9&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
             {
@@ -83,7 +79,7 @@ module.exports = {
                 author: {
                     name: "Anime Commands",
                     iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
             {
@@ -100,7 +96,7 @@ module.exports = {
                 author: {
                     name: "Bot Documentation",
                     iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1264191161212342282/GlaceYT_1.png?ex=669cf944&is=669ba7c4&hm=3170787ef8dfcde922996ce7bdbaf909c4a18b3e9d757cee8b020ddc70e12c84&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
             {
@@ -117,26 +113,10 @@ module.exports = {
                 author: {
                     name: "Bot Documentation",
                     iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1264191161212342282/GlaceYT_1.png?ex=669cf944&is=669ba7c4&hm=3170787ef8dfcde922996ce7bdbaf909c4a18b3e9d757cee8b020ddc70e12c84&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
-            {
-                title: "Hentai Commands",
-                description: `**Total Commands : **21\n` +
-                `**Usage : **Only Prefix\n` +
-                 "**Type : ** [ NSFW ] Images / Gifs \n\n" +
-                "It seems someone is looking for hentai commands. Please ensure to use these commands only in age-restricted channels.\n",
-                commands: ["WILL BE ADDED IN FEW DAYS"],
-                image: "https://cdn.discordapp.com/attachments/1246408947708072027/1255160148272353373/Rias.gif?ex=667c1e7b&is=667accfb&hm=cd9d086020fd0e062be92126942d1d683c15a878bb699b000d9db9a34447eb6c&",
-                color: "#5ce1e6", 
-                thumbnail: 
-                    "https://cdn.discordapp.com/attachments/1246408947708072027/1264191552998342687/All_in_one.png?ex=669cf9a1&is=669ba821&hm=eec8a5ec58467205c61757d7b4450785b31dc739e7351f3e5ce230d7eb6fb1d9&"
-                ,
-                author: {
-                    name: "Hentai [ NSFW ]",
-                    iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=667beaa8&is=667a9928&hm=50dfab0b5a63dab7abdc167899c447041b9717016c71e4ffe377a0d7a989d6b5&",
-                    url: "https://discord.gg/xQF9f9yUEM"
-                }
+           
             },
             {
                 title: "Moderation Commands",
@@ -152,7 +132,7 @@ module.exports = {
                 author: {
                     name: "Bot Documentation",
                     iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1264191161212342282/GlaceYT_1.png?ex=669cf944&is=669ba7c4&hm=3170787ef8dfcde922996ce7bdbaf909c4a18b3e9d757cee8b020ddc70e12c84&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
             {
@@ -171,7 +151,7 @@ module.exports = {
                 author: {
                     name: "Distube Player",
                     iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255155569250013236/76640873.png?ex=667c1a37&is=667ac8b7&hm=6a888b3748dbe4c8245fe632fafc31f28bd719a1921ed51ec11eb63f44dc5aec&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             },
             {
@@ -188,7 +168,7 @@ module.exports = {
                 author: {
                     name: "Utility Commands",
                     iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1255164064192270418/2861-tool.gif?ex=667c2220&is=667ad0a0&hm=17d2f57af30831b62639fd3d06853a7bc423e1a96b36e5994f432b65aa9f30dc&",
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.com/invite/PeEHBqJNbG"
                 }
             }
         ];
