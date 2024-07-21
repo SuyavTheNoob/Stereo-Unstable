@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const API_BASE_URL = 'http://Shiva:3000/api';
+const API_BASE_URL = 'http://Laplace:3000/api';
 
 let serverOnline = true;
 
