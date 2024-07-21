@@ -3,7 +3,7 @@
   "prefix": "!",
   "youtubeapi": "AIzaSyAholYB1sYcBuZu5pKfB0RTmLWyPG7rN44",
   "geniusToken" : "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
-  "hentai": true,
+  "hentai": false,
   "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
   "spotifyClientSecret": "199a619d22dd4e55a4a2c1a7a3d70e63",
   "lavalink": {
