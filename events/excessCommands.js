@@ -17,8 +17,7 @@ module.exports = {
         const commandName = args.shift().toLowerCase();
 
         let command;
-        if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'hentai', `${commandName}.js`))) {
-            command = require(path.join(__dirname, '..', 'excesscommands', 'hentai', `${commandName}.js`));
+        
         } else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'music', `${commandName}.js`))) {
             command = require(path.join(__dirname, '..', 'excesscommands', 'music', `${commandName}.js`));
         } else if (fs.existsSync(path.join(__dirname, '..', 'excesscommands', 'troll', `${commandName}.js`))) {
@@ -47,7 +46,7 @@ module.exports = {
 };
 
 function logCommandCounts() {
-    const folders = ['hentai', 'utility', 'music','troll', 'other'];
+    const folders = ['utility', 'music','troll', 'other'];
     const basePath = path.join(__dirname, '..', 'excesscommands');
     let totalCommands = 0;
 
